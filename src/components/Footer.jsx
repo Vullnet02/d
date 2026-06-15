@@ -10,9 +10,9 @@ function Footer() {
         </div>
         <div>
           <h4>Kontakti</h4>
-          <p>Rruga "Dëshmorët e Kombit", Prishtinë</p>
-          <p>Tel: +383 44 123 456</p>
-          <p>Email: info@drshkodrani.com</p>
+          <p>Address: Blloku 5, Zahir Pajaziti, Mitrovicë 40000</p>
+          <p>Phone: +383 44 400 088</p>
+          <p>Email: dr_shkodrani@dental-ks.com</p>
         </div>
         <div>
           <h4>Orari i Punës</h4>
@@ -29,3 +29,5 @@ function Footer() {
 }
 
 export default Footer
+
+// new test
