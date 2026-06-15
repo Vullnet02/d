@@ -21,7 +21,7 @@ const slides = [
     btnLink: '/sherbimet',
   },
 ]
-
+// new update
 function Home() {
   const [aktiv, setAktiv] = useState(0)
   const { sherbimet } = useSherbimet()
