@@ -1,0 +1,125 @@
+.contact-header {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 3rem 1.5rem 1.5rem;
+}
+
+.contact-header h1 {
+  color: #0f5e63;
+  margin-bottom: 0.8rem;
+}
+
+.contact-header p {
+  color: #4a5a5e;
+  font-size: 1.05rem;
+}
+
+.contact-content {
+  max-width: 1100px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1.5fr;
+  gap: 2rem;
+  padding: 1.5rem;
+}
+
+.contact-info h2,
+.contact-form h2 {
+  color: #0f5e63;
+  margin-bottom: 1rem;
+}
+
+.contact-info p {
+  margin-bottom: 0.6rem;
+  color: #2f3e46;
+  line-height: 1.5;
+}
+
+.contact-info h2:not(:first-child) {
+  margin-top: 1.5rem;
+}
+
+.contact-form {
+  background-color: #ffffff;
+  border: 1px solid #e0eceb;
+  border-radius: 10px;
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.04);
+}
+
+.contact-form label {
+  font-weight: 600;
+  margin-bottom: 0.3rem;
+  color: #2f3e46;
+}
+
+.contact-form input,
+.contact-form textarea {
+  margin-bottom: 1rem;
+  padding: 0.7rem;
+  border: 1px solid #cfdedd;
+  border-radius: 6px;
+  font-family: inherit;
+  font-size: 1rem;
+  resize: vertical;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+  outline: none;
+  border-color: #0f5e63;
+}
+
+.btn-primary-dark {
+  background-color: #0f5e63;
+  color: #ffffff;
+  border: none;
+  border-radius: 6px;
+  padding: 0.8rem 1.5rem;
+  font-weight: 600;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: opacity 0.15s;
+}
+
+.btn-primary-dark:hover {
+  opacity: 0.9;
+}
+
+.success-message {
+  background-color: #e6f7e9;
+  color: #1f7a3a;
+  padding: 0.8rem;
+  border-radius: 6px;
+  margin-bottom: 1rem;
+}
+
+.map-section {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 1.5rem 3rem;
+  text-align: center;
+}
+
+.map-section h2 {
+  color: #0f5e63;
+  margin-bottom: 1rem;
+}
+
+.map-placeholder {
+  background-color: #e6f2f2;
+  border: 1px dashed #a3c9c9;
+  border-radius: 10px;
+  padding: 4rem 1rem;
+  color: #4a8a8e;
+  font-weight: 500;
+}
+
+@media (max-width: 768px) {
+  .contact-content {
+    grid-template-columns: 1fr;
+  }
+}
