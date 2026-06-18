@@ -35,8 +35,7 @@ function Contact() {
         <div className="contact-info">
           <h2>Informacionet e Kontaktit</h2>
           <p>
-            <strong>Adresa:</strong> Rruga "Dëshmorët e Kombit", Prishtinë,
-            Kosovë
+            <strong>Adresa:</strong> Blloku 5, Zahir Pajaziti, Mitrovica e Veriut 40000
           </p>
           <p>
             <strong>Telefoni:</strong> +383 44 123 456
@@ -111,9 +110,14 @@ function Contact() {
 
       <section className="map-section">
         <h2>Na Gjeni</h2>
-        <div className="map-placeholder">
-          Harta e lokacionit të klinikës do të shfaqet këtu
-        </div>
+        <iframe
+          width="100%"
+          height="400"
+          style={{ border: 0, borderRadius: '10px' }}
+          loading="lazy"
+          allowFullScreen=""
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2927.5!2d20.8754!3d42.8921!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x135a4c4c4c4c4c4d%3A0x4c4c4c4c4c4c4c4c!2sBlloku%205%2C%20Zahir%20Pajaziti%2C%20Mitrovica%20e%20Veriut%2040000!5e0!3m2!1ssq!2s!4v1622000000000"
+        ></iframe>
       </section>
     </div>
   )

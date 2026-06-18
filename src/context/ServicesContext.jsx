@@ -7,7 +7,7 @@ const defaultSherbimet = [
     pershkrimi:
       'Kontrolle të rregullta, pastrim dentar profesional dhe trajtim të kariesit për të mbajtur gojën tuaj të shëndetshme.',
     foto: 'https://images.unsplash.com/photo-1606811971618-4486d14f3f99?w=400&h=250&fit=crop&auto=format',
-    cmimi: '2,500 Euro',
+    cmimi: '35 €',
   },
   {
     id: 2,
@@ -15,7 +15,7 @@ const defaultSherbimet = [
     pershkrimi:
       'Zbardhim dentar, faceta dhe trajtime estetike për një buzëqeshje më të bukur dhe të vetëbesimit më të lartë.',
     foto: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQdrfVKzV-HCmbyzJSKZyDQC4tdG2iLeIMGow&s',
-    cmimi: '15,000 Euro',
+    cmimi: '150 €',
   },
   {
     id: 3,
@@ -23,7 +23,7 @@ const defaultSherbimet = [
     pershkrimi:
       'Korrigjim i pozicionimit të dhëmbëve me aparate dentare moderne, fikse dhe të lëvizshme, për të rritur dhe të rinj.',
     foto: 'https://images.unsplash.com/photo-1607613009820-a29f7bb81c04?w=400&h=250&fit=crop&auto=format',
-    cmimi: '25,000 Euro',
+    cmimi: '80 € / muaj',
   },
   {
     id: 4,
@@ -31,7 +31,7 @@ const defaultSherbimet = [
     pershkrimi:
       'Vendosje implantesh dentare me teknologji të avancuar për zëvendësimin e dhëmbëve të humbur në mënyrë të qëndrueshme.',
     foto: 'https://images.unsplash.com/photo-1609840114035-3c981b782dfe?w=400&h=250&fit=crop&auto=format',
-    cmimi: '80,000 Euro',
+    cmimi: '600 €',
   },
   {
     id: 5,
@@ -39,7 +39,7 @@ const defaultSherbimet = [
     pershkrimi:
       'Trajtim profesional i kanaleve rrënjore për të shpëtuar dhëmbët e dëmtuar dhe për të lehtësuar dhimbjen.',
     foto: 'https://images.unsplash.com/photo-1588776814546-1ffcf47267a5?w=400&h=250&fit=crop&auto=format',
-    cmimi: '8,000 Euro',
+    cmimi: '120 €',
   },
   {
     id: 6,
@@ -47,7 +47,7 @@ const defaultSherbimet = [
     pershkrimi:
       'Heqje e dhëmbëve të mençurisë dhe ndërhyrje të tjera kirurgjikale me kujdes maksimal dhe minimum shqetësimi.',
     foto: 'https://images.unsplash.com/photo-1579684385127-1ef15d508118?w=400&h=250&fit=crop&auto=format',
-    cmimi: '10,000 Euro',
+    cmimi: '80 €',
   },
   {
     id: 7,
@@ -55,7 +55,7 @@ const defaultSherbimet = [
     pershkrimi:
       'Kujdes dentar i përshtatur për fëmijë, në një ambient të ngrohtë dhe miqësor, për përvoja pa stres.',
     foto: 'https://images.unsplash.com/photo-1581056771107-24ca5f033842?w=400&h=250&fit=crop&auto=format',
-    cmimi: '3,000 Euro',
+    cmimi: '30 €',
   },
   {
     id: 8,
@@ -63,7 +63,7 @@ const defaultSherbimet = [
     pershkrimi:
       'Kurora, ura dhe proteza të personalizuara për të rikthyer funksionin dhe estetikën e dhëmbëve tuaj.',
     foto: 'https://images.unsplash.com/photo-1559757148-5c350d0d3c56?w=400&h=250&fit=crop&auto=format',
-    cmimi: '20,000 Euro ',
+    cmimi: '300 €',
   },
 ]
 

@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom'
 import { useSherbimet } from '../context/ServicesContext'
 import './Home.css'
 
+
 const slides = [
   {
     id: 1,

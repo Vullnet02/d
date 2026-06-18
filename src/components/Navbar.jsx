@@ -1,14 +1,18 @@
 import { NavLink } from 'react-router-dom'
+import logo from '../assets/logo.png'
 import './Navbar.css'
 
-function Navbar() {
-  const linkClass = ({ isActive }) => (isActive ? 'nav-link active' : 'nav-link')
+function Navbar () {
+  const linkClass = ({isActive}) => (isActive ? 'nav-link active' : 'nav-link')
 
   return (
-    <header className="navbar">
+    <header className="navbar">    git remote add vullnet02 https://github.com/vullnet02/d.git
       <div className="navbar-container">
         <NavLink to="/" className="navbar-logo">
-          Dr. Shkodrani <span>Klinika Dentare</span>
+          <img src={logo} alt="Klinika Dentare logo" className="navbar-logo-img" />
+          <div>
+            Dr. Shkodrani <span>Klinika Dentare</span>
+          </div>
         </NavLink>
         <nav className="navbar-links">
           <NavLink to="/" className={linkClass} end>
