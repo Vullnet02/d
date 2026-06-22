@@ -5,6 +5,7 @@ import Home from './pages/Home'
 import Services from './pages/Services'
 import Contact from './pages/Contact'
 import AdminPanel from './pages/AdminPanel'
+import About from './pages/About'
 import { ServicesProvider } from './context/ServicesContext'
 import './App.css'
 
@@ -18,6 +19,7 @@ function App() {
             <Route path="/" element={<Home />} />
             <Route path="/sherbimet" element={<Services />} />
             <Route path="/kontakt" element={<Contact />} />
+            <Route path="/about" element={<About />} />
             <Route path="/admin" element={<AdminPanel />} />
           </Routes>
         </main>

@@ -6,7 +6,7 @@ function Navbar () {
   const linkClass = ({isActive}) => (isActive ? 'nav-link active' : 'nav-link')
 
   return (
-    <header className="navbar">    git remote add vullnet02 https://github.com/vullnet02/d.git
+    <header className="navbar">    
       <div className="navbar-container">
         <NavLink to="/" className="navbar-logo">
           <img src={logo} alt="Klinika Dentare logo" className="navbar-logo-img" />
@@ -20,6 +20,9 @@ function Navbar () {
           </NavLink>
           <NavLink to="/sherbimet" className={linkClass}>
             Shërbimet
+          </NavLink>
+          <NavLink to="/about" className={linkClass}>
+            About Us
           </NavLink>
           <NavLink to="/kontakt" className={linkClass}>
             Kontakt
